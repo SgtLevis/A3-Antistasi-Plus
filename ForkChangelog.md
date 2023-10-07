@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.2
+### Changes
+- Fixed broken rally point and construction cancellation 
+
 ## 2.3.1
 ### Additions
 - New civilian plane flyby random event
