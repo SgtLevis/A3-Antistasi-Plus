@@ -40,6 +40,19 @@ class A3A {
     #include "CfgFunctions.hpp"
 #endif
 
+class Extended_PreInit_EventHandlers {
+	aiSkillSettings = "call compile preprocessFileLineNumbers 'AI.sqf'";
+};
+
+class Extended_InitPost_EventHandlers
+{
+	class CAManBase {
+		class aiSetSkill {
+			init = "(_this select 0) call AI_setSkill;";			
+		};
+	};
+};
+
 // Load external member list if present
 #if __has_include("\A3AMembers.hpp")
 #include "\A3AMembers.hpp"
