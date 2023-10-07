@@ -13,11 +13,13 @@ class CfgDiscordRichPresence
     defaultDetails="";
     defaultState="";
     defaultLargeImageKey="cherno";
-    defaultLargeImageText="Antistasi Plus - Harvest Red";
+    defaultLargeImageText="BadCo Antistasi Plus - Harvest Red";
     defaultSmallImageKey="arma_3_logo";
     defaultSmallImageText="Arma 3 Custom Scenario";
     useTimeElapsed=1;
 };
+
+disableChannels[] = {{0,false,true},{1,true,true},{2,true,true},{3,true,true},{4,true,true},{5,true,true},{6,true,true}};
 
 class CfgNotifications
 {
